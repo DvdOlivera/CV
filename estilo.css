@@ -1,16 +1,13 @@
 body{
+    width: 100%;
     margin: 0;
     padding: 0;
-    background-color: #f4f1bb;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url("fernando-rodrigues-FZlE7Oa1UnA-unsplash.jpg");
 }
-#misopciones{
 
-
-    background-color: rgb(140, 217, 223);
-    
-    border: 5px solid;
-    border-color: white ;
-}
 
 nav {
     display: flex;
@@ -22,12 +19,23 @@ nav {
 nav :hover{
   
     transition: 400ms;
-    background-color: rgb(97, 168, 150);
-    color: rgb(250, 230, 120);
-   
+    background-color: rgb(136, 107, 190);
+    color: rgb(250, 217, 68)
 }
 
+
 .opciones{
+    -ms-word-break: break-all;
+     word-break: break-all;
+
+
+     word-break: break-word;
+
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+        hyphens: auto;
+
     outline: none !important;
     cursor: pointer;
     display: flex;
@@ -35,9 +43,9 @@ nav :hover{
     flex-wrap:  nowrap;
     justify-content: center;
     align-items: center;
-    width: 20%;
+    width: 200px;
     height: 100px;
-    background-color: #FF637D;
+    background-color: rgb(40, 206, 255);
     border-radius:30px;
     font-size: 40px;
     border: 5px solid;
@@ -45,49 +53,168 @@ nav :hover{
     margin: 20px;
     box-shadow: 10px 10px 1px rgba(0, 0, 0, 0.253);
     color: white;
-    
-    font-family: 'Bangers', cursive;
+    font-weight: 500;
+    font-family: 'Poiret One', cursive;
+
     letter-spacing: 2px;
 }
 #aviso{
-    font-family: 'Lobster', cursive;
-    border: 5px solid;
-    border-color: #ff637d;
-    
+    font-family: 'Poiret One', cursive;
+
+    letter-spacing: 2px;
     height: auto;
-    background-color:rgb(80, 59, 64);
-    color: rgb(255, 208, 90);
-    font-size: 50px;
+    font-weight: 900;
+    color: rgb(234, 121, 24);
+    font-size: 75px;
     text-align: center;
+    margin-bottom: 30px;
 
 }
 #fotocontenedor{
-    margin:  40px;
-    width: 20%;
-    height: 300px;
-    background-color: rgb(253, 253, 253);
-    border: 5px dashed;
-    border-color: #ff637d;
-    
-    box-shadow: 10px 10px 1px rgba(0, 0, 0, 0.253);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 #descripcion{
     margin: 40px;
     width:70%;
-    height: 300px;
-    background-color: rgb(253, 253, 253);
-   
-    border: 5px solid;
-    border-color: #ff637d;
+    height:auto;
+    
+    min-height: 400px;
+    border: 10px solid;
+    border-color: rgb(40, 206, 255);
     border-radius: 30px;
     box-shadow: 10px 10px 1px rgba(0, 0, 0, 0.253);
+    -ms-word-break: break-all;
+    word-break: break-all;
 
+
+    word-break: break-word;
+
+   -webkit-hyphens: auto;
+   -moz-hyphens: auto;
+   -ms-hyphens: auto;
+       hyphens: auto;
+    font-weight: 900;
+    color: honeydew;
+    margin:auto;
+    font-family: 'Poiret One', cursive;
+    
+    font-size: 40px;
 
 }
 #informacion{
-
+   
     display: flex;
     flex-direction: row;
     flex-wrap:  nowrap;
+    
+}
 
+
+#imagen{
+    border-radius: 50%;
+    border: 12px solid;
+    border-color: rgb(234, 121, 24);
+    width: 300px;
+    height: 300px;
+
+}
+#foto{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+h1 {
+   
+    color: white;
+}
+#textocontenedor{
+    font-weight: 900;
+    width:60%;
+    font-family: 'Poiret One', cursive;
+
+}
+#imagentexto{
+    padding-bottom: 5%;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:  nowrap;
+    align-items: center;
+    justify-content: center;
+     
+}
+
+.oculto{
+    display:none;
+}
+.titulos{
+    font-size: 40px;
+    color: rgb(40, 206, 255);
+}
+.descripciones{
+    margin:5%;
+}
+span{
+    color:rgb(234, 121, 24);
+    
+}
+#link :hover{
+    color:rgb(234, 121, 24);
+}
+#link{
+    text-decoration:none;
+    color:rgb(40, 206, 255);
+}
+#proyectos{
+    border-radius: 5px;
+    border: 5px solid;
+    border-color: rgb(40, 206, 255);
+}
+#contenedorproyecto{
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    
+}
+#fotoproyecto :hover{
+    transition: 300ms;
+    
+    filter:brightness(1.0);
+}
+#fotoproyecto{
+    margin:10px;
+    height: 240px;
+    width: 320px ;
+   
+}
+#imagenproyecto{
+    filter:brightness(0.5);
+    width: 100%;
+    height: 100%;
+}
+footer{
+    margin-top: 100px;
+    background-color: rgb(44, 38, 54);
+    width: 100%;
+    color:white;
+    height: 100px;
+    display: flex;
+    
+    flex-wrap:  nowrap;
+    align-items: center;
+    justify-content: center;
+
+}
+#creditos{
+   
+   
+    font-family: 'Poiret One', cursive;
+    font-size: 15px;
+    
+    
 }
