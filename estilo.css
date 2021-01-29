@@ -5,9 +5,13 @@ body{
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    background-image: url("fernando-rodrigues-FZlE7Oa1UnA-unsplash.jpg");
+    background-image: url("2fernando-rodrigues-FZlE7Oa1UnA-unsplash.jpg");
 }
-
+.parrafosimple{
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    font-size: 30px;
+}
 
 nav {
     display: flex;
@@ -22,7 +26,10 @@ nav :hover{
     background-color: rgb(136, 107, 190);
     color: rgb(250, 217, 68)
 }
-
+#tamañofoto{
+    margin-top: 20px;
+    display:flex;
+}
 
 .opciones{
     -ms-word-break: break-all;
@@ -78,6 +85,7 @@ nav :hover{
     flex-direction: column;
 }
 #descripcion{
+    background-color: rgba(15, 14, 15, 0.473);
     margin: 40px;
     width:70%;
     height:auto;
@@ -139,7 +147,7 @@ h1 {
 
 }
 #imagentexto{
-    padding-bottom: 5%;
+    
     padding-top: 5%;
     display: flex;
     flex-direction: column;
@@ -171,6 +179,7 @@ span{
     color:rgb(40, 206, 255);
 }
 #proyectos{
+    background-color: rgba(15, 14, 15, 0.562);
     border-radius: 5px;
     border: 5px solid;
     border-color: rgb(40, 206, 255);
@@ -187,10 +196,16 @@ span{
     filter:brightness(1.0);
 }
 #fotoproyecto{
+    width: 50%;
     margin:10px;
     height: 240px;
     width: 320px ;
    
+}
+#descri{
+    padding-left: 5%;
+    font-size: 25px;
+    width: 50%;
 }
 #imagenproyecto{
     filter:brightness(0.5);
@@ -209,6 +224,9 @@ footer{
     align-items: center;
     justify-content: center;
 
+}
+#contenedorfoo{
+  
 }
 #creditos{
    
